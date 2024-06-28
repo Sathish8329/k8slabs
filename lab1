@@ -1,0 +1,4 @@
+cat ~/.kube/config
+location of configfile
+cp ~/.kube/config /root/
+then edit the file.
