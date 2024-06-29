@@ -2,3 +2,13 @@ cat ~/.kube/config
 location of configfile
 cp ~/.kube/config /root/
 then edit the file.
+
+HOME/.kube/config
+
+kubectl config view  - to view the current config file
+
+kubectl config view --kubeconfig=mycustomconfig - this is used to change the config file from default
+
+kubectl config use-context contextname - this is used to change which context we need to use 
+
+cat ca.crt | base64
