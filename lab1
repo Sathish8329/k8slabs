@@ -12,3 +12,7 @@ kubectl config view --kubeconfig=mycustomconfig - this is used to change the con
 kubectl config use-context contextname - this is used to change which context we need to use 
 
 cat ca.crt | base64
+
+1st task
+vim ~/.kube/config 
+kubectl config set-context developer
